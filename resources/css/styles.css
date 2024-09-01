@@ -6,14 +6,63 @@ body {
     color: lightgrey;
 }
 
+nav {
+    position: fixed;
+    width: 100%;
+    max-height: 100px;
+    margin: 0px 0px 0px 0px;
+    background-color: black;
+    opacity: 0.75;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    margin: 10px 30px;
+}
+
 h1 {
     font-size: 4.5em;
+    margin: 10px 0px 5px 0px;
+}
+
+h2 {
+    font-size: 1.15em;
+    margin: 0px 0px 25px 0px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 4.5em;
+    margin: 10px 0px 5px 0px;    
 }
 
 p {
-    font-size: 1.75em;
+    font-size: 1.5em;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-img {
+.image1 {
+    width: 65px;
+    padding: 5px;
+}
+
+.image2 {
     width: 100%;
 }
