@@ -17,6 +17,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 10px 0px;
+    top: 0;
 }
 
 nav ul {
@@ -65,4 +66,18 @@ p {
 
 .image2 {
     width: 100%;
+}
+
+.image3 {
+    width: 100%;
+    max-height: 600px;
+}
+
+.image4 {
+    width: 100%;
+    max-height: 600px;
+}
+
+.login {
+    margin: 150px 50px 50px 50px;
 }
