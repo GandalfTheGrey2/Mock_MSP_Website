@@ -6,6 +6,11 @@ body {
     color: lightgrey;
 }
 
+@keyframes navv {
+    from {color: lightgrey;}
+    to {color: cyan;}
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -36,6 +41,9 @@ nav ul li a {
     margin: 10px 30px;
 }
 
+nav ul li a:hover {
+    animation: navv 0.25s ease-in forwards;
+}
 h1 {
     font-size: 4.5em;
     margin: 10px 0px 5px 0px;
