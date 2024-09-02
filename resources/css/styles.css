@@ -9,7 +9,7 @@ body {
 nav {
     position: fixed;
     width: 100%;
-    max-height: 100px;
+    max-height: 80px;
     margin: 0px 0px 0px 0px;
     background-color: black;
     opacity: 0.75;
@@ -39,6 +39,7 @@ nav ul li a {
 h1 {
     font-size: 4.5em;
     margin: 10px 0px 5px 0px;
+    font-family: "Times New Roman";
 }
 
 h2 {
@@ -59,6 +60,46 @@ p {
     margin-right: 50px;
 }
 
+.mainhead h1{
+    font-size: 7.5em;
+}
+
+.services {
+    max-height: 400px;
+    margin: 75px auto 20px auto;
+    padding: 20px 0px;
+}
+
+.services h3 {
+    font-size: 1.25em;
+}
+
+.services ul {
+    list-style: none;
+}
+
+.services ul li {
+    display: inline-block;
+    margin: 0px 50px;
+    font-size: 2.2em; /* 2.2 */
+    font-family: "Beiruti", "Fustat", "Roboto";
+    vertical-align: top;
+}
+
+.services ul li p {
+    font-size: 0.55em; /* 0.55 */
+    font-family: "Ubuntu", "Lato";
+    max-width: 170px;
+    top: 0;
+    float: inline-end;
+    font-style: italic;
+}
+
+.services h3 {
+    font-size: 3.0em;
+    text-decoration: underline;
+}
+
 .image1 {
     width: 65px;
     padding: 5px;
@@ -76,6 +117,13 @@ p {
 .image4 {
     width: 100%;
     max-height: 600px;
+}
+
+.imagez {
+    width: 130px;
+    height: 130px;
+    vertical-align: middle;
+    align-items: center;
 }
 
 .login {
