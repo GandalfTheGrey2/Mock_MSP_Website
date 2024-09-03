@@ -99,10 +99,6 @@ footer ul li {
     padding: 20px 0px;
 }
 
-.services h3 {
-    font-size: 1.25em;
-}
-
 .services ul {
     margin: 50px 0px;
     list-style: none;
@@ -129,6 +125,74 @@ footer ul li {
 .services h3 {
     font-size: 3.0em;
     text-decoration: underline;
+}
+
+.choose {
+    margin: 55px auto 20px auto;
+}
+
+.choose p {
+    font-size: 1.5em;
+}
+
+.choose h3{
+    font-size: 3.0em;
+    text-decoration: underline;
+}
+
+* {box-sizing:border-box}
+
+.slideshow {
+    max-width: 700px;
+    position: relative; /* figure out how to change this so it doesnt go above the nav bar */
+    margin: auto;
+    align-items: center;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev {
+    left: 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.numtext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1}
 }
 
 .image1 {
