@@ -78,6 +78,7 @@ footer {
     width: 100%;
     color: rgb(230, 230, 230);
     overflow: hidden;
+    position: absolute;
 }
 
 footer ul {
