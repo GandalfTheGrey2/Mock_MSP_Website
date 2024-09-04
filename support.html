@@ -19,10 +19,23 @@
         <img src="./resources/images/support.png" alt="Support" class="image3">
 
         <h1>Support</h1>
+        <p>Below is a support form, once you're done please submit and we will get back to you as soon as possible.</p>
         <br>
         
         <div class="support">
-            
+            <form action="action_page.php" method="POST">
+                <label for="cname">Company Name</label>
+                <br>
+                <input type="text" id="cname" name="companyname" placeholder="Your company's name...">
+                <br>
+
+                <label for="mess">Subject</label>
+                <br>
+                <input type="text" id="mess" name="message" placeholder="Your message...">
+                <br>
+
+                <input type="submit" value="Submit">
+            </form>
         </div>
         
         <footer>
