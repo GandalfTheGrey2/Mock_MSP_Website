@@ -78,7 +78,6 @@ footer {
     width: 100%;
     color: rgb(230, 230, 230);
     overflow: hidden;
-    position: absolute;
 }
 
 footer ul {
@@ -88,6 +87,12 @@ footer ul {
 footer ul li {
     display: inline-block;
     margin: 0px 50px;
+    text-decoration: underline;
+}
+
+footer ul li a {
+    color: rgb(230, 230, 230);
+    text-decoration: none;
 }
 
 .mainhead h1{
