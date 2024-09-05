@@ -13,7 +13,6 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
                 <li><a href="support.html">Support</a></li>
-                <li><a href="login.html">Login</a></li>
            </ul>
         </nav>
         <img src="./resources/images/support.png" alt="Support" class="image3">
@@ -22,21 +21,30 @@
         <p>Below is a support form, once you're done please submit and we will get back to you as soon as possible.</p>
         <br>
         
+
+        <!-- Hello! This code below will not work because you need to have MySQL and 
+        some web server solution like XAMPP for it to work. I wanted
+        to remove the complexity needed for the viewers see the content,
+        therefore, I opted not to include this within the project.
+        However, I will have a good SQL project done for viewers to 
+        see to prove I can do SQL.   -->
         <div class="support">
-            <form action="action_page.php" method="POST">
+            <form action="script2.php" method="POST">
                 <label for="cname">Company Name</label>
                 <br>
-                <input type="text" id="cname" name="companyname" placeholder="Your company's name...">
+                <input type="text" id="cname" name="companyname" placeholder="Your company's name..." id="cname">
                 <br>
 
                 <label for="mess">Subject</label>
                 <br>
-                <input type="text" id="mess" name="message" placeholder="Your message...">
+                <input type="text" id="mess" name="message" placeholder="Your message..." id="subj">
                 <br>
 
                 <input type="submit" value="Submit">
             </form>
         </div>
+        <!--Everything below this does work though. :) -->
+
         
         <footer>
             <h1>Gen IT</h1>
