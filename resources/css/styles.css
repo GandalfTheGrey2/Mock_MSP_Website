@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 body {
     margin: 0px;
     background-color: rgb(39, 39, 39);
@@ -5,6 +9,9 @@ body {
     font-family: 'Arial', 'Helvetica', 'Times New Roman';
     color: lightgrey;
     overflow: auto;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 @keyframes navv {
@@ -71,7 +78,7 @@ p {
 }
 
 footer {
-    margin: 125px 0px 0px 0px;
+    margin: auto 0px 0px 0px;
     background-color: rgb(78, 78, 78);
     opacity: 0.80;
     max-height: 175px;
@@ -94,6 +101,7 @@ footer ul li {
 footer ul li a {
     color: rgb(230, 230, 230);
     text-decoration: none;
+    font-size: 1.3em;
 }
 
 .mainhead h1{
@@ -151,7 +159,7 @@ footer ul li a {
 
 .slideshow {
     max-width: 700px;
-    position: relative; /* figure out how to change this so it doesnt go above the nav bar */
+    position: relative; 
     margin: auto;
     align-items: center;
 }
@@ -234,30 +242,32 @@ footer ul li a {
 }
 
 input[type=text], select, textarea {
-    width: 50%;
+    width: 60%;
     padding: 12px;
     border: 1px solid gray;
     border-radius: 3px;
     box-sizing: border-box;
     margin: 6px 0px 16px 0px;
     resize: vertical;
+    font-size: 20px;
 }
 
 input[type=number], select, textarea {
-    width: 50%;
+    width: 60%;
     padding: 12px;
     border: 1px solid gray;
     border-radius: 3px;
     box-sizing: border-box;
     margin: 6px 0px 16px 0px;
     resize: vertical;
+    font-size: 20px;
 }
 
 input[type=submit] {
     background-color:lightgrey;
     color: black;
     padding: 12px 20px;
-    font-size: 20px;
+    font-size: 28px;
     border: none;
     cursor: pointer;
 }
@@ -269,7 +279,7 @@ input[type=submit]:hover {
 .support {
     padding: 20px;
     margin: 50px 75px;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .pdf {
@@ -288,4 +298,8 @@ input[type=submit]:hover {
 
 .icons ul li {
     margin: 0px 8px;
+}
+
+.sup p {
+    font-size: 2em;
 }
